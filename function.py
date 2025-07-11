@@ -39,3 +39,20 @@ def greet(name):
 # eik argumant dain kyon ka apna function bana ta howa argument dya tha name ka nam sa eis lya ab ap yahan eis argument ma eik string  pass YA KUCH BHI  karin agin
 
 greet('Alice')  # Function call: passing 'Alice' as an argument to the function
+# Function call with a different argument
+greet(4+5)    # Function call: passing 'Bob' as an argument to the
+
+# hum multiple bhi perameter da saktainhain
+
+# jaisa ka function ka naam multiple hai aur yeh eik argument name leta hai
+def multiple(a,b):
+    """
+    function ka name multiple hai aur yeh do arguments leta hai a aur b
+    """
+    print(f"The sum of {a} and {b} is {a + b}")  # Function body: prints the sum of a and b
+
+# Function call with two arguments
+multiple(10, 20)  # Function call: passing 10 and 20 as arguments to the function
+
+
+
