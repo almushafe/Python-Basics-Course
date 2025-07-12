@@ -54,5 +54,131 @@ def multiple(a,b):
 # Function call with two arguments
 multiple(10, 20)  # Function call: passing 10 and 20 as arguments to the function
 
+# eik aur khasyat dikr karta hon function i varable lenght premeter
+# jsia ka "*args"
+def greet(*args): # eis o bolta han arbitrary eis ka matlab man caha ap kuch bhi da sakta han leken argument eik tuple ki sorat ma ander ata han
+    print(args)
+
+greet(1,2,3,4,56,120)
+
+# ya bhi eik keyword ha function permeter ma istaml karna ka **kwargs
+def naya(**kwargs):
+    '''eis ka matlab ha ka function ko  keyword arguments jitna chhain da sakta han
+    leken ya sub eik ditonry ki sorat ma ander jata han
+    '''
+    print(kwargs)
+
+naya(name='Muhamamd',Age=20,profasion='I am Student')
+
+# Eik Zarori baat yaad rkhain ka function ka bracket ka ander jo ham likhta hain woh hota variable hi han liken eis ko function sath khas kya gya ha eis lya eis ka name varible ka perameter kha gya ha aur variable ki value ko yahn argument khta han
+
+
+
+
+
+
+def greet(name):  # ← یہاں 'name' ایک **parameter** ہے
+    print("Hello", name)
+
+greet("Ali")       # ← یہاں "Ali" ایک **argument** ہے
+
+
+
+
+def show_info(*args, **kwargs):  # ← parameters
+    print(args)
+    print(kwargs)
+
+show_info(1, 2, name='Ahmed', age=23)  # ← arguments
+
+
+
+
+
+
+# return woh keyword ha jo function sa output da a ha function ki traf sa resut wapis la na ka lya 
+
+# print aur function ma farq ya ha print sirf console pa out put dhka ta ha aur tempory hota aur ya function ka out put data ha aur sath ath ya value wapis karta ha 
+
+def check():
+    print("Hello")    # ← صرف دکھا رہا ہے
+    return "Bye"      # ← value واپس دے رہا ہے
+
+result = check()
+print("Returned:", result)
+
+
+
+# default perameter 
+
+def nice(name='Muhamamd'):
+    print("Aslam U alikm", name)
+
+nice()
+nice("Saad") 
+
+
+#  Keyword Arguments
+
+# jasa ka mana permeter dya us ma key argument da dya
+def wah(name,Age):
+    print(f'Mera Name {name} ', f' {Age} sal umer ha', sep=' ha ma Alhamduliilah meri')
+
+wah(name='Muhamamd', Age=20)
+
+
+# Ab sab sa main topicha aur muskil bhi aur zarori bhi us ka name ha recursion
+
+# recursion eik function ko kAI BAR CALL kar sakta ha
+
+# jsa ka
+
+# def first(n):
+#     return first(n)
+
+# print(first(0))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# lambda function ya bara maza ka ha
+# ya ei anonums function hoa ha
+
+show =lambda x : print(x) # x ya permeter ha colon sa function shro hota ah
+
+show(20)
+
+(lambda name:print(name))("Muhamamd")
+# eis funcion ko baqyda name nahi dya gya
+
+
+
+#  Advanced Concepts (صرف سمجھنے کے لیے ابھی):
 
 
