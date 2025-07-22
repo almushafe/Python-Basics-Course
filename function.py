@@ -133,13 +133,10 @@ wah(name='Muhamamd', Age=20)
 
 # jsa ka
 
-# def first(n):
-#     return first(n)
-
-# print(first(0))
 
 
 
+# recursion topic descuse coming soon
 
 
 

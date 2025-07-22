@@ -76,5 +76,15 @@ for i in range(1, 10):
 
 # ___________________________________________________________________________________________________
 
+# Nested Loop
 
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
 
+for row in matrix:             # Outer loop - har row ke liye
+    for item in row:           # Inner loop - row ke har item ke liye
+        print(item, end=' ')
+    print()
